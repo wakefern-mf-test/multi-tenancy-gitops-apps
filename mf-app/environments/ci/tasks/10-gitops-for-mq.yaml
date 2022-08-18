@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: ibm-gitops-for-mq
+  name: ibm-gitops
   annotations:
     description: Generates MQ artifacts
     app.openshift.io/description: Generates MQ artifacts
