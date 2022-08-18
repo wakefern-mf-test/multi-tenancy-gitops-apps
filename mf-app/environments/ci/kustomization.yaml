@@ -11,7 +11,7 @@ resources:
 # - pipelines/ibm-test-pipeline-for-stage.yaml
 #- pipelines/java-maven-dev-pipeline.yaml
 # - pipelines/mq-pipeline-dev.yaml
- - pipelines/mf-app-dev-pipeline.yaml
+- pipelines/mf-app-dev-pipeline.yaml
 # - roles/custom-pipeline-sa-clusterrole.yaml
 # - roles/custom-pipeline-sa-role.yaml
 # - roles/custom-ci-pipeline-sa-rolebinding.yaml
