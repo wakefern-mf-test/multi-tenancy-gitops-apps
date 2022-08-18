@@ -13,7 +13,7 @@ spec:
   project: applications
   source:
     path: mf-app/environments/staging/mf-app/
-    repoURL: https://github.com/wakefern-ibm/multi-tenancy-gitops-apps.git
+    repoURL: https://github.com/wakefern-mf-test/multi-tenancy-gitops-apps.git
     targetRevision: master
   syncPolicy:
     automated:
