@@ -1,7 +1,7 @@
 resources:
 #- certificates/ci-mq-client-certificate.yaml
 #- certificates/ci-mq-server-certificate.yaml
-# - configmaps/gitops-repo-configmap.yaml
+- configmaps/gitops-repo-configmap.yaml
 #- eventlisteners/cntk-event-listener.yaml
 #- triggerbindings/cntk-binding.yaml
 #- triggertemplates/mq-qm-dev.yaml
