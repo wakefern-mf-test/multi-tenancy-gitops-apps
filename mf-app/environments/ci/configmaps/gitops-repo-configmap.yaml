@@ -9,9 +9,9 @@ metadata:
 data:
   branch: master
   host: github.com
-  org: wakefern-ibm
-  owner: wakefern-ibm
+  org: wakefern-mf-test
+  owner: wakefern-mf-test
   parentdir: .
   protocol: https
   repo: multi-tenancy-gitops-apps
-  url: https://github.com/wakefern-ibm/multi-tenancy-gitops-apps.git
+  url: https://github.com/wakefern-mf-test/multi-tenancy-gitops-apps.git
