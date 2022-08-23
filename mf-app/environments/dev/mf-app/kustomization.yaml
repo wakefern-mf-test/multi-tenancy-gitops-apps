@@ -1,10 +1,10 @@
 resources:
- - ../../base/mf-app
+# - ../../base/mf-app
 #  - configmap/configmap.yaml
 #  - configmap/configmap-ccdt.yaml
  # - deployment/hooks/post-sync-job.yaml
  # - certificates/dev-mq-client-certificate.yaml
  # - certificates/dev-mq-server-certificate.yaml
  # - secrets/mq-client-jks-password-secret.yaml
-patchesStrategicMerge:
- - deployment/deployment.yaml
+#patchesStrategicMerge:
+ #- deployment/deployment.yaml
