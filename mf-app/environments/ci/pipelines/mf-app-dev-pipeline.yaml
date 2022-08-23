@@ -148,36 +148,20 @@ spec:
           value: $(tasks.setup.results.scan-ibm)
     - name: gitops
       taskRef:
-        name: ibm-gitops-for-mq
+        name: ibm-gitops
       runAfter:
         - img-scan
       params:
-        - name: git-url
-          value: "$(tasks.setup.results.git-url)"
-        - name: git-revision
-          value: "$(tasks.setup.results.git-revision)"
-        - name: source-dir
-          value: "$(tasks.setup.results.source-dir)"
-        - name: image-server
-          value: "$(tasks.setup.results.image-server)"
-        - name: image-namespace
-          value: "$(tasks.setup.results.image-namespace)"
-        - name: image-repository
-          value: "$(tasks.setup.results.image-repository)"
-        - name: image-tag
-          value: "$(tasks.tag-release.results.tag)"
         - name: app-name
           value: "$(tasks.setup.results.app-name)"
-        - name: app-path
-          value: "$(params.app-path)"
-        - name: environment
-          value: "$(params.environment)"
-        - name: deploy-ingress-type
-          value: "$(tasks.setup.results.deploy-ingress-type)"
+        - name: version
+          value: "$(tasks.tag-release.results.tag)"
+        - name: helm-url
+          value: $(tasks.helm-release.results.helm-url)
         - name: tools-image
           value: "$(tasks.setup.results.tools-image)"
-        - name : security
-          value: "$(params.security)"
+        - name: app-path
+          value: "$(params.app-path)"
         - name: dest-environment
           value: "$(params.environment)"
         - name: git-pr
