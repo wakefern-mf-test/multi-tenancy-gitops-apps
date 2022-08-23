@@ -28,7 +28,7 @@ spec:
     - name: parentdir
       default: ""
     - name: yaml
-      default: "kustomize/base"
+      default: "requirements.yaml"
     - name: helm-url
       default: ""
     - name: git-pr
